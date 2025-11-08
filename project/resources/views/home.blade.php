@@ -1,14 +1,6 @@
 <x-master>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Team Portfolio - Home</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<body class="bg-light">
     <style>
-      
       .hover-card {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
       }
@@ -17,10 +9,7 @@
         transform: translateY(-8px);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
       }
-
     </style>
-</head>
-<body class="bg-light">
 
           <!-- Hero Section -->
           <section class="py-5 text-center text-white position-relative" 
@@ -103,12 +92,6 @@
 
         </div>
     </div>
-
-    
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
 
 </x-master>
