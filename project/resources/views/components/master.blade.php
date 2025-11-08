@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                     <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </div>
@@ -42,7 +42,7 @@
                 <div class="col-auto">
                     <a class="small" href="{{ route('home') }}">Home</a>
                     <span class="mx-1">&middot;</span>
-                    <a class="small" href="{{ route('about') }}">About</a>
+                    <a class="small" href="">About</a>
                     <span class="mx-1">&middot;</span>
                     <a class="small" href="{{ route('contact') }}">Contact</a>
                 </div>
