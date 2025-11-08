@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -103,11 +102,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-=======
-
-
-    <x-master>
-        <h2>Welcome to the Home Page!</h2>
-        <p>This is the unique content for the home page.</p>
-    </x-master>
->>>>>>> 28e06f535701aed76c8752cb55a78d9e1529f96d
