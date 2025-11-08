@@ -96,24 +96,13 @@
             <div class="footer-divider"></div>
 
             <div class="row align-items-center justify-content-center">
-                <div class="col-auto mb-2 mb-sm-0">
-                    <a href="{{ route('home') }}">Home</a>
-                    <span class="mx-2 text-light">|</span>
-                    <a href="{{ route('about') }}">About</a>
-                    <span class="mx-2 text-light">|</span>
-                    <a href="{{ route('contact') }}">Contact</a>
-                </div>
-                <div class="w-100"></div>
                 <div class="col-auto">
-<<<<<<< HEAD
                     <a class="small" href="{{ route('home') }}">Home</a>
                     <span class="mx-1">&middot;</span>
                     <a class="small" href="">About</a>
                     <span class="mx-1">&middot;</span>
                     <a class="small" href="{{ route('contact') }}">Contact</a>
-=======
                     <div class="small mt-2">&copy; {{ date('Y') }} AnasDev. All rights reserved.</div>
->>>>>>> a40e1e583cf673ddc2da9687dec1e5c213e1fd20
                 </div>
             </div>
         </div>
