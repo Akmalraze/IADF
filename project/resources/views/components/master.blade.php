@@ -68,9 +68,9 @@
             <!-- Menu Links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto fw-semibold">
-                    <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Home</a></li>
-                    <li class="nav-item dropdown" data-bs-toggle="dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link" href="{{ route('home') }}" >Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About
                         </a>
                         <ul class="dropdown-menu">
@@ -80,7 +80,6 @@
                             <li><a class="dropdown-item" href="{{ route('aboutAkmal') }}">MUHAMMAD AKMAL</a></li>
                         </ul>
                     </li>
-                    
                     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </div>
@@ -119,6 +118,7 @@
         </div>
     </footer>
 
+    <!-- Bootstrap JS (includes Popper.js) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
