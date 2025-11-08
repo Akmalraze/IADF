@@ -1,3 +1,4 @@
+<x-master>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,41 +79,15 @@
                       </div>
                   </div>
 
-<<<<<<< HEAD
-            <!-- Member 4 -->
-            <div class="col-md-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="{{ asset('gambar/akmal.jpg') }}" alt="akmal" class="card-img-top rounded-circle mx-auto mt-4" style="width:150px;height:200px;" alt="Member 4">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">MUHAMMAD AKMAL BIN MOHAMED RAZELAN		</h5>
-                        <p class="text-muted mb-2">UI/UX Designer</p>
-                        <p class="card-text small">Focuses on aesthetic design, color themes, and overall user experience.</p>
-                    </div>
-                </div>
-            </div>
 
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p class="mb-0">&copy; {{ date('Y') }} Our Team Portfolio | Built with ❤️ using Laravel & Bootstrap</p>
-    </footer>
+    
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-=======
-              </div>
-          </div>
-
-
-          <!-- Bootstrap JS -->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-      </body>
-    </html>
 
 </x-master>
-
->>>>>>> acc4855ae6e12a5aabcf2e37ec059832a32336ae
