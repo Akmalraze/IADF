@@ -5,7 +5,7 @@
         <div class="row align-items-center mb-5">
             <!-- Profile Image -->
             <div class="col-md-3 text-center mb-4 mb-md-0">
-                <img src="{{ asset('gambar/anas.jpg') }}"
+                <img src="{{ asset('gambar/badzli.jpg') }}"
                      alt="Anas Profile Photo"
                      class="rounded-circle shadow-sm img-fluid border border-3 border-primary"
                      style="width: 180px; height: 180px; object-fit: cover;">
@@ -13,10 +13,10 @@
 
             <!-- Profile Info -->
             <div class="col-md-9">
-                <h1 class="fw-bold text-dark mb-1">Anas</h1>
-                <h4 class="text-primary fw-semibold mb-3">Full-Stack Developer</h4>
+                <h1 class="fw-bold text-dark mb-1">AHMAD IKHWAN BADZLI BIN ABRIZA</h1>
+                <h4 class="text-primary fw-semibold mb-3">Frontend Developer</h4>
                 <p class="text-secondary">
-                    Hello! I'm <strong>Anas</strong>, a passionate developer who loves crafting clean,
+                    Hello! I'm <strong>Badzli</strong>, a passionate developer who loves crafting clean,
                     responsive, and scalable web applications. With experience in
                     <strong>Laravel</strong>, <strong>PHP</strong>, and modern frontend technologies like
                     <strong>JavaScript</strong> and <strong>Bootstrap</strong>, I enjoy transforming complex ideas
