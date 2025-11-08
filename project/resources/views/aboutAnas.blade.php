@@ -13,8 +13,8 @@
 
             <!-- Profile Info -->
             <div class="col-md-9">
-                <h1 class="fw-bold text-dark mb-1">Anas</h1>
-                <h4 class="text-primary fw-semibold mb-3">Full-Stack Developer</h4>
+                <h1 class="fw-bold text-dark mb-1">MUHAMMAD ANAS BIN NASHARUDIN</h1>
+                <h4 class="text-primary fw-semibold mb-3">Project Leader</h4>
                 <p class="text-secondary">
                     Hello! I'm <strong>Anas</strong>, a passionate developer who loves crafting clean,
                     responsive, and scalable web applications. With experience in
