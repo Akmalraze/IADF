@@ -11,15 +11,20 @@
       <body class="bg-light">
 
           <!-- Hero Section -->
-          <section class="py-5 text-center bg-primary text-white">
-              <div class="container">
+          <section class="py-5 text-center text-white position-relative" 
+                  style="background: url('{{ asset('gambar/coding-banner.jpg') }}') center/cover no-repeat;">
+
+              <!-- Dark overlay for opacity -->
+              <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3);"></div>
+
+              <div class="container position-relative">
                   <h1 class="display-5 fw-bold">Welcome to Our Team Portfolio</h1>
                   <p class="lead mt-3">
-                      We are a group of passionate students working together to build innovative and creative web applications using Laravel and Bootstrap.
+                      <b>We are a group of passionate students working together to build innovative and creative web applications using Laravel and Bootstrap.</b>
                   </p>
-                  <a href="{{ url('/about') }}" class="btn btn-light btn-lg mt-3">Meet Our Team</a>
               </div>
           </section>
+
 
           <!-- Team Introduction -->
           <div class="container my-5">
