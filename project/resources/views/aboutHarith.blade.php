@@ -35,16 +35,16 @@
                 <div class="col-md-6">
                     <h6 class="mb-2 text-secondary">HTML & CSS</h6>
                     <div class="progress" style="height: 10px;">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                            aria-valuemin="0" aria-valuemax="100">90%</div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                            aria-valuemin="0" aria-valuemax="100">60%</div>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <h6 class="mb-2 text-secondary">JavaScript / Vue.js</h6>
                     <div class="progress" style="height: 10px;">
-                        <div class="progress-bar bg-info" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                            aria-valuemin="0" aria-valuemax="100">85%</div>
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">75%</div>
                     </div>
                 </div>
 
@@ -59,8 +59,8 @@
                 <div class="col-md-6">
                     <h6 class="mb-2 text-secondary">Database (MySQL)</h6>
                     <div class="progress" style="height: 10px;">
-                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75"
-                            aria-valuemin="0" aria-valuemax="100">75%</div>
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100">95%</div>
                     </div>
                 </div>
             </div>
@@ -108,10 +108,9 @@
                             <div class="mb-3">
                                 <i class="bi bi-camera text-primary" style="font-size: 2rem;"></i>
                             </div>
-                            <h5 class="card-title fw-semibold">Photography</h5>
+                            <h5 class="card-title fw-semibold">Travelling</h5>
                             <p class="card-text text-muted">
-                                Love capturing moments and exploring creative visual composition
-                                through lenses and light.
+                                Like to travel around the globe with friends and families. Capturing every moment with them was a great boost for my social mental health.
                             </p>
                         </div>
                     </div>
