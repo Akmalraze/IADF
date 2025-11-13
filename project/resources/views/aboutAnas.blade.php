@@ -16,11 +16,8 @@
                 <h1 class="fw-bold text-dark mb-1">MUHAMMAD ANAS BIN NASHARUDIN</h1>
                 <h4 class="text-primary fw-semibold mb-3">Project Leader</h4>
                 <p class="text-secondary">
-                    Hello! I'm <strong>Anas</strong>, a passionate developer who loves crafting clean,
-                    responsive, and scalable web applications. With experience in
-                    <strong>Laravel</strong>, <strong>PHP</strong>, and modern frontend technologies like
-                    <strong>JavaScript</strong> and <strong>Bootstrap</strong>, I enjoy transforming complex ideas
-                    into simple and efficient digital solutions. I believe in writing clean code,
+                    Hello! I'm <strong>Anas</strong>, a passionate final year student of Universiti Malaysia Pahang Al-Sultan Abdullah and a developer who loves crafting clean,
+                    responsive, and scalable web applications. I believe in writing clean code, embracing
                     continuous learning, and building great user experiences.
                 </p>
             </div>
@@ -95,8 +92,8 @@
                             </div>
                             <h5 class="card-title fw-semibold">Reading</h5>
                             <p class="card-text text-muted">
-                                Passionate about reading tech blogs, design books, and developer documentation
-                                to keep up with trends.
+                                Enjoy reading comics, recipes books, and novels
+                                to fill up my free time.
                             </p>
                         </div>
                     </div>
@@ -108,10 +105,10 @@
                             <div class="mb-3">
                                 <i class="bi bi-camera text-primary" style="font-size: 2rem;"></i>
                             </div>
-                            <h5 class="card-title fw-semibold">Photography</h5>
+                            <h5 class="card-title fw-semibold">Cooking</h5>
                             <p class="card-text text-muted">
-                                Love capturing moments and exploring creative visual composition
-                                through lenses and light.
+                                Love cooking delicious meals and  explore new recipes learn from
+                                videos and recipe books for friend and the love one.
                             </p>
                         </div>
                     </div>
