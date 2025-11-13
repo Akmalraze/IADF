@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Application</title>
+    <title>AnasDev</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="{{ asset('gambar/Logo-anas.png') }}" type="image/x-icon">
 
     <style>
         /* ===== HEADER STYLE ===== */
@@ -47,6 +48,32 @@
             border-top: 1px solid rgba(255,255,255,0.25);
             margin: 15px 0;
         }
+        .hover-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        /* Smooth hover effect */
+        .dropdown-item:hover {
+        background-color: #0d6efd;
+        color: white;
+        border-radius: 6px;
+        transition: all 0.2s ease-in-out;
+        }
+
+        /* Fade animation (if not using animate.css) */
+        @keyframes fadeInDropdown {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+        }
+
+        .dropdown-menu {
+        animation: fadeInDropdown 0.25s ease-in-out;
+        }
+
     </style>
 </head>
 
@@ -66,23 +93,32 @@
             </button>
 
             <!-- Menu Links -->
+           <!-- Navbar Menu -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto fw-semibold">
-                    <li class="nav-item"><a class="nav-link" href="{{ route('home') }}" >Home</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            About
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{{ route('aboutAnas') }}">MUHAMMAD ANAS</a></li>
-                            <li><a class="dropdown-item" href="{{ route('aboutBadzli') }}">AHMAD IKHWAN</a></li>
-                            <li><a class="dropdown-item" href="{{ route('aboutHarith') }}">MUHAMMAD HARITH</a></li>
-                            <li><a class="dropdown-item" href="{{ route('aboutAkmal') }}">MUHAMMAD AKMAL</a></li>
-                        </ul>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ route('home') }}">Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end shadow border-0 rounded-3 animate__animated animate__fadeIn" aria-labelledby="aboutDropdown">
+                        <li><a class="dropdown-item py-2 px-3" href="{{ route('aboutAnas') }}">MUHAMMAD ANAS</a></li>
+                        <li><a class="dropdown-item py-2 px-3" href="{{ route('aboutBadzli') }}">AHMAD IKHWAN</a></li>
+                        <li><a class="dropdown-item py-2 px-3" href="{{ route('aboutHarith') }}">MUHAMMAD HARITH</a></li>
+                        <li><a class="dropdown-item py-2 px-3" href="{{ route('aboutAkmal') }}">MUHAMMAD AKMAL</a></li>
+                    </ul>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+                    </li>
                 </ul>
             </div>
+
         </div>
     </nav>
 

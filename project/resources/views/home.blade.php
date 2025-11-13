@@ -1,15 +1,5 @@
 <x-master>
 <body class="bg-light">
-    <style>
-      .hover-card {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-
-      .hover-card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-      }
-    </style>
 
           <!-- Hero Section -->
           <section class="py-5 text-center text-white position-relative" 

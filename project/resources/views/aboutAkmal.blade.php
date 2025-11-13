@@ -4,11 +4,12 @@
         <!-- Header: Profile -->
         <div class="row align-items-center mb-5">
             <!-- Profile Image -->
-            <div class="col-md-3 text-center mb-4 mb-md-0">
-                <img src="{{ asset('gambar/akmal.jpg') }}"
-                     alt="Anas Profile Photo"
-                     class="rounded-circle shadow-sm img-fluid border border-3 border-primary"
-                     style="width: 180px; height: 180px; object-fit: cover;">
+           <div class="col-md-3 text-center mb-4 mb-md-0">
+                <div style="width: 180px; height: 180px; border-radius: 50%; overflow: hidden; margin: 0 auto; border: 3px solid #0d6efd;">
+                    <img src="{{ asset('gambar/akmal.jpg') }}"
+                        alt="Akmal Profile Photo"
+                        style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                </div>
             </div>
 
             <!-- Profile Info -->
@@ -16,12 +17,9 @@
                 <h1 class="fw-bold text-dark mb-1">MUHAMMAD AKMAL BIN MOHAMED RAZELAN</h1>
                 <h4 class="text-primary fw-semibold mb-3">UI/UX Designer</h4>
                 <p class="text-secondary">
-                    Hello! I'm <strong>Akmal</strong>, a passionate developer who loves crafting clean,
-                    responsive, and scalable web applications. With experience in
-                    <strong>Laravel</strong>, <strong>PHP</strong>, and modern frontend technologies like
-                    <strong>JavaScript</strong> and <strong>Bootstrap</strong>, I enjoy transforming complex ideas
-                    into simple and efficient digital solutions. I believe in writing clean code,
-                    continuous learning, and building great user experiences.
+                    Hi, I’m Muhammad Akmal Bin Mohamed Razelan, a Final Year Software Engineering student at Universiti Malaysia Pahang. 
+                    My expertise spans system development, web development, and mobile app creation. 
+                    I am passionate about using technology to not only solve problems but also enhance the experiences of users and businesses.
                 </p>
             </div>
         </div>
@@ -40,15 +38,15 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <h6 class="mb-2 text-secondary">JavaScript / Vue.js</h6>
+                <div class="col-md-6 ">
+                    <h6 class="mb-2 text-secondary">JavaScript </h6>
                     <div class="progress" style="height: 10px;">
                         <div class="progress-bar bg-info" role="progressbar" style="width: 85%;" aria-valuenow="85"
                             aria-valuemin="0" aria-valuemax="100">85%</div>
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <h6 class="mb-2 text-secondary">Laravel / PHP</h6>
                     <div class="progress" style="height: 10px;">
                         <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80"
@@ -56,7 +54,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <h6 class="mb-2 text-secondary">Database (MySQL)</h6>
                     <div class="progress" style="height: 10px;">
                         <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75"
@@ -70,18 +68,18 @@
 
         <!-- Hobbies Section -->
         <section class="mb-5">
-            <h2 class="fw-bold text-dark mb-4">Hobbies & Interests</h2>
+            <h2 class="fw-bold text-dark mb-4">Experience & Skill</h2>
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center hover-card">
                             <div class="mb-3">
                                 <i class="bi bi-controller text-primary" style="font-size: 2rem;"></i>
                             </div>
-                            <h5 class="card-title fw-semibold">Gaming</h5>
+                            <h5 class="card-title fw-semibold">Web Development</h5>
                             <p class="card-text text-muted">
-                                Enjoy playing competitive and story-driven games that sharpen focus
-                                and improve problem-solving skills.
+                                Hands-on experience with the Laravel framework, 
+                                building dynamic websites and applications that are both functional and user-friendly.
                             </p>
                         </div>
                     </div>
@@ -89,14 +87,13 @@
 
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center hover-card">
                             <div class="mb-3">
                                 <i class="bi bi-book text-primary" style="font-size: 2rem;"></i>
                             </div>
-                            <h5 class="card-title fw-semibold">Reading</h5>
+                            <h5 class="card-title fw-semibold">Mobile Development</h5>
                             <p class="card-text text-muted">
-                                Passionate about reading tech blogs, design books, and developer documentation
-                                to keep up with trends.
+                                Experience with the Flutter framework, building dynamic mobile application with the integration of Database using Firebase.
                             </p>
                         </div>
                     </div>
@@ -104,14 +101,14 @@
 
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center hover-card">
                             <div class="mb-3">
                                 <i class="bi bi-camera text-primary" style="font-size: 2rem;"></i>
                             </div>
-                            <h5 class="card-title fw-semibold">Photography</h5>
+                            <h5 class="card-title fw-semibold">ERP Systems</h5>
                             <p class="card-text text-muted">
-                                Love capturing moments and exploring creative visual composition
-                                through lenses and light.
+                                Hands-on experience with SAP S/4HANA in academic projects, 
+                                including navigation, configuration, and execution of business processes.
                             </p>
                         </div>
                     </div>
