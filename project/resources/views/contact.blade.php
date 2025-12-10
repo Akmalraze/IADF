@@ -26,3 +26,7 @@
         </div>
     </div>
 </x-master>
+
+
+
+- `name` (Customer name) - `email` (Email address) - `address` (Full address) - `phoneNumber` (Phone number) - `gender` (Male or Female) - `birthday` (Customer’s date of birth)
